@@ -13,7 +13,6 @@ public class Listeners implements ITestListener{
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		ITestListener.super.onTestSuccess(result);
-		System.out.println("THE END");
 	}
 
 	@Override
