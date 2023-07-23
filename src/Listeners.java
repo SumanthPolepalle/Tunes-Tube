@@ -7,7 +7,7 @@ public class Listeners implements ITestListener{
 	@Override
 	public void onTestStart(ITestResult result) {
 		ITestListener.super.onTestStart(result);
-		System.out.println("Test Started");
+		System.out.println("Test Started, Enjoy!");
 	}
 
 	@Override
