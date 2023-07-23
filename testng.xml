@@ -8,6 +8,5 @@
 		<classes>
 			<class name="Starter" />
 		</classes>
-	</test> <!-- Test -->
-</suite> <!--
-Suite -->
+	</test> 
+</suite> 
