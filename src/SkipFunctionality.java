@@ -47,7 +47,6 @@ public class SkipFunctionality {
 				wait.until(ExpectedConditions.elementToBeClickable(SkipButton));
 				SkipButton.click();
 			} catch (Exception e) {
-				System.out.println("No Ads, Enjoy");
 			}
 	}
 }

@@ -13,12 +13,12 @@ public class Listeners implements ITestListener{
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		ITestListener.super.onTestSuccess(result);
+		System.out.println("THE END");
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
 		ITestListener.super.onTestFailure(result);
-		System.out.println("Test Failed");
 	}
 
 	@Override
@@ -44,6 +44,7 @@ public class Listeners implements ITestListener{
 	@Override
 	public void onFinish(ITestContext context) {
 		ITestListener.super.onFinish(context);
+		System.out.println("THE END");
 	}
 
 	@Override
